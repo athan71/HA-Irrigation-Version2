@@ -59,7 +59,15 @@ input_text:
     max: 30
     icon: mdi:format-font
 
-
+  # Initial setup of users to allow the notification services to work.
+  notifications_user1_name:
+    name: User 1
+    initial: user1
+    
+  notifications_user2_name:
+    name: User 2
+    initial: user2
+  
 #==================
 #=== Input Numbers
 #==================

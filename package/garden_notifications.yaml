@@ -90,11 +90,13 @@ automation:
         entity_id:
         - input_boolean.irrigation_cycle1_running
         - input_boolean.irrigation_cycle2_running
+        - input_boolean.irrigation_cycle3_running
 
-    condition:
-      - condition: state
-        entity_id: binary_sensor.holiday_mode
-        state: 'on'
+    # Commented out due to this being an external sensor
+    # condition:
+    #   - condition: state
+    #     entity_id: binary_sensor.holiday_mode
+    #     state: 'on'
     
       - condition: or
         conditions:
