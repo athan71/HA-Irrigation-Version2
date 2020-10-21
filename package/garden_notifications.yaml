@@ -93,7 +93,7 @@ automation:
         - input_boolean.irrigation_cycle3_running
 
     # Commented out due to this being an external sensor
-    # condition:
+    condition:
     #   - condition: state
     #     entity_id: binary_sensor.holiday_mode
     #     state: 'on'
