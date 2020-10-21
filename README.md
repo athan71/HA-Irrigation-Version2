@@ -12,7 +12,7 @@ By @bbogdanmircea - [Setup guide](https://github.com/bbogdanmircea/HA-Irrigation
 
 <h2>Prerequisites</h2>
 
-There are some [prerequisites](https://github.com/kloggy/HA-Irrigation-Version2/blob/master/Pre-Requisites.md) to setting this up. PLEASE READ THEM. Any questions posted that look like they haven't been read may be ignored.
+There are some [prerequisites](https://github.com/kloggy/HA-Irrigation-Version2/blob/master/Pre-Requisites_Read_Me.md) to setting this up. PLEASE READ THEM. Any questions posted that look like they haven't been read may be ignored.
 
 
 Please note that as it stands this assumes that you are using `yaml` mode for Lovelace because that is what I use.
@@ -29,7 +29,7 @@ One day maybe I'll delve further into how GitHub works but for now I'm afraid th
 
 <h2> More than eight zones? </h2>
 
-I wrote this for use with up to eight zones but it can be quite easily adapted for use with more. I don't plan to change the code here to do this but @athan has done it and kindly allowed me to post a link to his branch.
+I wrote this for use with up to eight zones but it can be quite easily adapted for use with more. I don't plan to change the code here to do this but @athan71 has done it and kindly allowed me to post a link to his branch.
 
 If you need more than eight zones look [here](https://github.com/athan71/HA-Irrigation-Version2/tree/16-zones).
 
